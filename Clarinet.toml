@@ -10,6 +10,10 @@ path = 'contracts/citizen-participation-nft.clar'
 clarity_version = 2
 epoch = 2.5
 
+[contracts.policy-implementation]
+path = 'contracts/policy-implementation.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
